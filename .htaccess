@@ -1,0 +1,9 @@
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+ErrorDocument 400 /gym-management/404page.php
+ErrorDocument 401 /gym-management/404page.php
+ErrorDocument 403 /gym-management/404page.php
+ErrorDocument 404 /gym-management/404page.php
+ErrorDocument 500 /gym-management/404page.php
